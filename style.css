@@ -92,7 +92,6 @@ body {
     }
     input {
         width: 100px;
-        border: 1px block ;
         height: 30px;
         width: 300px;
         font-size: 18px;
@@ -138,9 +137,10 @@ button {
 }
 
 input:invalid {
-    border-color: red;
+    border: 2px solid red;
 }
 input:focus {
-    box-shadow: rgba(0, 0, 255, 0.314);
-    border: 1px solid green;
+    outline: none;
+    border: 2px solid rgb(9, 0, 128);
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.314);
 }

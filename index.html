@@ -30,7 +30,7 @@
         <div class="form-wrapper">
             <div class="form">
                 <p>Get New Memberships🚀</p>
-                <form action="">
+                <form action="" id="signup-form">
                     <div class="row">
                         <div class="col">
                             <label for="fname">FIRST NAME:</label>
@@ -54,11 +54,11 @@
                     <div class="row">
                         <div class="col">
                             <label for="password">PASSWORD: <span style="font-size: 15px;">mininmum of 8 characters</span></label>
-                            <input type="text" id="password" name="password" placeholder="Ex: John123" minlength="8">
+                            <input type="password" id="password" name="password" placeholder="Ex: John123" minlength="8">
                         </div>
                         <div class="col">
                             <label for="Confirmation">CONFIRMATION PASSWORD:</label>
-                            <input type="text" id="confirmation" name="confirmation" placeholder="Ex: John123">
+                            <input type="password" id="confirmation" name="confirmation" placeholder="Ex: John123" minlength="8"">
                         </div>
                     </div>
                     
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="cta">          
-                <button type="submit">Connect with us</button>
+                <button type="submit" form="signup-form">Connect with us</button>
                 <p>Already worked with us? <a href="https://zzz.zoomquilt.org/">Drop a review</a></p>
         </div>
     </div>
